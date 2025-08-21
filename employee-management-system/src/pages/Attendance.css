@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.att-title{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #153243;
+    color: white;
+    font-size: 40px;
+}
+
+.attendance-table-container {
+  width: 90%;
+  margin: 30px auto;
+  overflow-x: auto;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.attendance-table th,
+.attendance-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.attendance-table th {
+  background-color: #f2f2f2;
+}
+
+.attendance-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+
+/* ======================================================== */
+
+.empid-btn {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+}
+
+.popup-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.success-msg {
+  text-align: center;
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.empid-btn.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.att-subtitle {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #284b63;
+  font-weight: bold;
+}

@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  background-color: black; /* Replace this with your desired color */
+}
+
+
+.landing-container h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #386641;
+  color: white;
+  font-size: 40px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 155px;
+
+}
+
+/* button{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  font-size: large;
+  line-height: 1.4;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: constantia;
+} */
+
+.b1{
+  background-color: #102542;
+  color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  font-size: large;
+  line-height: 1.4;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: constantia;
+}
+
+.b2{
+  background-color: #bf0603;
+  color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  font-size: large;
+  line-height: 1.4;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: constantia;
+}
+
+.b3{
+  background-color: #00cecb;
+  color: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  font-size: large;
+  line-height: 1.4;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: constantia;
+}
