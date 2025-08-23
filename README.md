@@ -1,4 +1,4 @@
-# MERN Stack Electrical Billing System(MongoDB Compass)
+# MERN Stack Employee Attendance System(MongoDB Compass)
 
 # Features of the Project  
 
